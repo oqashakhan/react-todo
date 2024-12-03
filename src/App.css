@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style: none;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 23px;
+
+}
+
+nav li {
+    font-size: 18px;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav h1 {
+    font-size: 40px;
+
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+nav span {
+    font-size: 50px;
+    color: rgb(207, 31, 31);
+}
+
+.con {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.todo-con {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.todo {
+    width: 40vw;
+    background: linear-gradient(-20deg, rgb(195, 0, 255), rgb(0, 255, 136));
+    border-radius: 23px;
+    padding: 20px 20px;
+    margin-top: 23px;
+
+}
+
+.todo-head {
+    width: 100%;
+
+}
+
+.todo-head h1 {
+    color: white;
+}
+
+.inp {
+    /* background: red; */
+    width: 100%;
+    padding-top: 15px;
+}
+
+.inp input {
+    border: none;
+    padding: 7px 12px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.inp button {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.inp button:hover{
+    transform: scale(1.1);
+}
+.tobo-body{
+    
+    padding-top: 23px;
+
+}
+.tobo-body ul{
+    height: 100%;
+    width: 100%;
+  
+}
+.tobo-body li{
+    background: white;
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tobo-body li button{
+    padding: 3px 5px ;
+    border: none;
+    border-radius: 4px ;
+    background-color: rgb(143, 19, 143);
+    color: white;
+   padding: 5px;
+}
+.tobo-body li button:hover{
+    transform: scale(0.9);
+}
+.line{
+    text-decoration: line-through;
+}
